@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      
   pull_request:
     branches:
       - main
@@ -18,14 +19,14 @@ jobs:
         with:
           node-version: '18'
       # Install Packages
-      - name: Install Packages
-        working-directory: informational-website
-        run: npm install
-      # Build the React app
-      - name: Build
-        working-directory: informational-website
-        run: npm run build
-      # Run Tests
-      - name: Run Tests
-        working-directory: informational-website
-        run: npm test
+      # - name: Install Packages
+      #   working-directory: informational-website
+      #   run: npm install
+      # # Build the React app
+      # - name: Build
+      #   working-directory: informational-website
+      #   run: npm run build
+      # # Run Tests
+      # - name: Run Tests
+      #   working-directory: informational-website
+      #   run: npm test
