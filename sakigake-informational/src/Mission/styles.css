@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Hind+Madurai&family=Jost&family=Nunito:wght@300;400&display=swap');
+
+#mission-section {
+    width: 100%;
+    /* margin-top: 15%; */
+    display: grid;
+    grid-template-columns: repeat(1 1fr);
+    background-color: #008CBF;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+}
+
+#mission-header h1 {
+    font-size: 40px;
+}
+
+#mission-header p {
+    font-size: 22px;
+    font-family:'Jost',san ;
+    line-height: 1.8;
+}
+
+#mission-header {
+    text-align: center;
+    margin-top: -15%;
+}
+
+#bottom {
+    width: 100%;
+    margin-bottom: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#blueContainer {
+    width: 20%;
+    height: 350px;
+    margin: 2%;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 50px 25px;
+    padding-bottom: 40px;
+
+
+}
+
+#blueContainer p {
+    font-family:'Jost',san ;
+    line-height: 1.8;
+
+}
+
+#icon {
+    margin-right: 40%;
+    font-size: 35px;
+    color: #008CBF;
+    border-radius: 50%;
+    background: #E4F5FF;
+    padding: 10px 20px;
+
+}
+
+#circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+    transform: translate(-10%, -40%);
+    /* margin-top: -40px;
+        margin-left: -20px; */
+}
+
+#circle2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+    transform: translate(-40%, -105%);
+}
+
+@media screen and (max-width: 767px) {
+    #mission-section {
+        /* margin-top: 50%; */
+        width: 100%;
+
+    }
+
+    #mission-header h1 {
+        font-size: 25px;
+    }
+
+    #mission-header p {
+        font-size: 14px;
+
+    }
+
+    #bottom {
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+    }
+
+    #blueContainer {
+        width: 78%;
+        height: 250px;
+        margin: 10px 15px;
+        padding: 60px 30px;
+        margin-left: 14px;
+    }
+
+    #blueContainer h2 {
+        font-size: 20px;
+
+    }
+
+    #icon {
+        font-size: 20px;
+        padding: 8px 15px;
+        margin-left: 40%;
+    }
+
+    #circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    #circle2 {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+    #mission-section {
+        width: 100%;
+        margin-right: -10%;
+        
+    }
+
+    #mission-header {
+        width: 100%;
+    }
+
+    #mission-header h1 {
+        font-size: 2px;
+    }
+
+    #mission-header p {
+        font-size: 24px;
+    }
+
+    #bottom {
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+        gap: 24px;
+    }
+
+    #blueContainer {
+        width: 80%;
+        padding: 10px 14px;
+        margin-left: 8%;
+    }
+
+    #blueContainer h2 {
+        font-size: 25px;
+
+    }
+
+    #icon {
+        font-size: 25px;
+        padding: 8px 15px;
+        margin-left: 45%;
+    }
+
+    #circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    #circle2 {
+        width: 100px;
+        height: 100px;
+    }
+
+}
