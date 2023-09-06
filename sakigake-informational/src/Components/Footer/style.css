@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Hind+Madurai&family=Nunito:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Hind+Madurai&family=Jost&family=Nunito:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap');
+/* Footer Container */
+.footer-container {
+    background-image:
+    linear-gradient(#2195f3dc, #2195f3dc),
+    url('/public/images/background.jpg');
+    color: white;
+    padding: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10 ;
+    font-family: 'Baloo Bhai 2', 'Jost', sans-serif;
+}
+
+.logos{
+  margin-top: -35%;
+  color: #FFF;
+}
+
+.logs{
+    margin-left: 20%;
+}
+
+.footer-container h1{
+margin-top: -35%;
+width: 263px;
+height: 38px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: 'Baloo Bhai 2', cursive;
+font-size: 38px;
+margin-left: -3%;
+line-height: normal;
+}
+
+.navigate{
+  margin-left: 1%;
+  margin-top: -5%;
+  font-size: 0px;
+  color: #E5E5E5;
+  font-family: Jost;
+ font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+span {
+  color: #FFF;
+  width: 230px;
+  font-family: 'Baloo Bhai 2', cursive;
+  height: 56px;
+  flex-shrink: 0;
+  font-size: 38px;
+  margin-bottom: .5em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* gap: 20px; */
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1;
+    max-width: 250px;
+}
+.information {
+    display: flex;
+    line-height: 2;
+    margin-top: 0.1%;
+    font-family: Jost;
+    flex-direction: column;
+    color: #E5E5E5;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.c-li{
+    font-family:  'Jost', san;
+}
+
+.CONTACT {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    line-height: 2;
+    font-size: 1.2rem;
+    color: #E5E5E5;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -1em;
+}
+
+.footer-hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid white;
+    margin: 20px 0;
+}
+
+.footer-container p {
+    margin: 0;
+}
+
+.bi {
+    font-size: 20px;
+}
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-container .footer-icons .footer {
+    flex: 1;
+}
+.footer-p{
+    margin-left: -3em;
+    font-size: 20px;
+    margin-top: 2em;
+    font-family:  'Jost', san;
+}
+.iconz{
+    margin-top: .7em;
+    font-size: 1.4em;
+    margin-left: -1em;
+}
+​
+.iconz .icon:hover{
+    color: #008CBF;
+}
+
+.iconz .icon{
+    padding-left: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container{
+        padding-top: 5em ;
+    }
+    .footer-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer {
+        text-align: center;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+   
+
+    .logs{
+        margin-left: -1%;
+    }
+
+
+    .footer-icons {
+        justify-content: center;
+    }
+    .footer {
+        align-items: center;
+    }
+    .navigate{
+        margin-left: 1%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-icons {
+      flex-direction: column;
+    }
+    .footer {
+      width: 100%;
+      margin-top: 0;
+    }
+    .information {
+      flex-direction: column;
+    }
+    .CONTACT {
+      flex-direction: column;
+    }
+  } 
