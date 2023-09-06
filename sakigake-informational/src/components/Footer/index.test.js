@@ -4,7 +4,7 @@
 /* eslint-disable testing-library/no-container */
 import React from 'react';
 import { render , screen} from '@testing-library/react';
-import Footer from '../Footer'; 
+import Footer from '.'; 
 
 describe('Footer component', () => {
   it('renders without errors', () => {

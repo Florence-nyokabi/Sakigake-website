@@ -1,7 +1,7 @@
 /* eslint-disable testing-library/prefer-screen-queries */
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
-import Navbar from "../Navbar";
+import Navbar from ".";
 
 describe("Navbar component", () => {
   it("renders the component without errors", () => {
