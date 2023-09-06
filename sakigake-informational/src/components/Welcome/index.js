@@ -3,11 +3,11 @@ import './style.css'
 
 const Welcome = () =>{
     return(
-        <div className="Home">
+        <div className="home">
         
-        <div className="home-div">
-            <div className="h-div-1">
-                <span className="yellow"></span>
+        <div className="home-divs">
+            <div className="home-div-one">
+                <span className="span-dot"></span>
                 <h1 className="welcome">Welcome to MzaziConnect</h1>
                 <h1 className="journey">
                     A new way to stay engaged in your
@@ -21,17 +21,16 @@ const Welcome = () =>{
             
                 materials for your child's studies.
                 </p>
-                <div className="img-div-1">
-                   <img src="./images/playstore.png" alt=""/>
+                <div className="images-div-one">
+                   <img src="./images/playstore.png" alt="playstore"/>
                 </div>
             </div>
-            <div className="h-div-2">
-                    <div className="child-bg">
-                    {/* <img src="./images/child.png" alt="" /> */}
+            <div className="home-div-two">
+                    <div className="child-background" data-testid="child-background">
                     </div>
             </div>
-            <div className="h-dot">
-            <span className="blue"></span>
+            <div className="dot-division">
+            <span className="span-dot-two"></span>
             </div>
 
         </div>

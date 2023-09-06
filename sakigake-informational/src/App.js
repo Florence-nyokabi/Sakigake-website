@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import Testimonials from './Testimonial';
-import Welcome from './Welcome';
+import Testimonials from './components/Testimonial';
+import Welcome from './components/Welcome';
 
 function App() {
   return(

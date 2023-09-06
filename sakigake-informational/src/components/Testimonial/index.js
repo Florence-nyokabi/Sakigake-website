@@ -28,8 +28,8 @@ const Testimonials = () => {
         <h6>{testimonials[currentSlide].job}</h6>
         <p>" {testimonials[currentSlide].testimonial} "</p>
       </div>
-      <button id="prev" onClick={prevSlide}><IoIosArrowBack/></button>
-      <button id="next" onClick={nextSlide}><IoIosArrowForward/></button>
+      <button id="prev" onClick={prevSlide} data-testid="prev-button"><IoIosArrowBack/></button>
+      <button id="next" onClick={nextSlide} data-testid="next-button"><IoIosArrowForward/></button>
     </div>
     </div>
 

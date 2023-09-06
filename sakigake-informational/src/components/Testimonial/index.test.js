@@ -6,12 +6,22 @@ import { testimonials } from './Testimonial-data';
 test('renders testimonials correctly', () => {
   render(<Testimonials />);
   
-  // Assertions for the initial rendered state
   expect(screen.getByText('Here is what our clients say')).toBeInTheDocument();
   expect(screen.getByText(testimonials[0].name)).toBeInTheDocument();
   expect(screen.getByText(testimonials[0].job)).toBeInTheDocument();
-//   expect(screen.getByText(testimonials[0].testimonial)).toBeInTheDocument();
+
+  const nextButton = screen.getByTestId('next-button');
+  const prevButton = screen.getByTestId('prev-button');
+
+  fireEvent.click(nextButton);
+  expect(screen.getByText(testimonials[1].name)).toBeInTheDocument();
+  expect(screen.getByText(testimonials[1].job)).toBeInTheDocument();
 
 
+  fireEvent.click(prevButton);
+  expect(screen.getByText(testimonials[0].name)).toBeInTheDocument();
+  expect(screen.getByText(testimonials[0].job)).toBeInTheDocument();
 
+
+  
 });
