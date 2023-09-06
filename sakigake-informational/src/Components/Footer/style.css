@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Hind+Madurai&family=Nunito:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Hind+Madurai&family=Jost&family=Nunito:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap');
-/* Footer Container */
+
 .footer-container {
     background-image:
     linear-gradient(#2195f3dc, #2195f3dc),
@@ -23,7 +23,9 @@
 
 .logs{
     margin-left: 20%;
+    
 }
+
 
 .footer-container h1{
 margin-top: -35%;
@@ -104,6 +106,7 @@ span {
     color: #E5E5E5;
     font-style: normal;
     font-weight: 400;
+    margin-top: -2%;
 }
 
 .footer-hr {

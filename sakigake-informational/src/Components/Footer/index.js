@@ -12,7 +12,7 @@ function Footer() {
             <img src="./images/logo2.svg" alt="" className='logs' width="140" height="253" />
             <h1 id="footer-logo">MzaziConnect</h1>
           </div>
-          {/* <p className='navigate'>Navigating CBC Success Together</p> */}
+       
         </div>
         <br />
         <div className="information" id="footer-information">
