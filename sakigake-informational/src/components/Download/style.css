@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Hind+Madurai&family=Jost&family=Nunito:wght@300;400&display=swap');
+
+.main{
+background-color: #E7F5FF;
+display: flex;
+font-size:30px;
+}
+.main p{
+  font-family: 'Baloo Bhai 2', cursive;
+}
+.words{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.playstore{
+    width: 200px;
+    height: 70px;
+}
+.blue{
+    color: rgb(0, 170, 255);
+}
+.pic {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+  }
+  .pic img {
+    padding-top: 8%;
+    max-width: 100%;
+    height: auto;
+  }
+@media (max-width: 768px) {
+    .main {
+      flex-direction: column;
+      align-items: center;
+      font-size: 20px;
+    }
+    .blue{
+      font-size: 20px;
+    }
+    .words {
+      margin: 50px 0;
+      text-align: center;
+    }
+    .playstore {
+      width: 100px;
+      height: 50px;
+      object-fit: contain;
+    }
+    .pic {
+        margin: 20px 0;
+      }
+  }
