@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Hind+Madurai&family=Nunito:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Hind+Madurai&family=Jost&family=Nunito:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap');
+
+
+.testimonials{
+    margin-top: 8em;
+    margin-bottom: 12em;
+    padding: 0 1em;
+  
+  }
+   .textimonial-h1{
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding-bottom: 4em;
+   }
+   .textimonial-h1::after{
+    content: '';
+    background: #008CBF;
+    display: block;
+    height: .25em;
+    width: 8em;
+    margin: 15px auto 8px;
+    border-radius: 2px;
+   }
+   .wrapper {
+    margin: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .testimonial-container {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    padding: 1.8em 1.2em;
+    background-color: #ffffff;
+    box-shadow: rgba(67, 71, 85, 0.459) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    padding: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+  }
+  
+  .wrapper button {
+    font-size: 1.5em;
+    height: 2.28em;
+    width: 2.3em;
+    background-color: #ffffff;
+    position: absolute;
+    border: 3px solid #008CBF;
+    color: #000;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .wrapper button:hover{
+    border: 3px solid #008cbf81;
+  }
+  
+  
+  button#next {
+    right: 8em;
+    padding-top: .3em;
+    padding-right: .16em;
+  }
+  
+  button#prev {
+    left: 8em;
+    padding-top: .3em;
+    padding-left: .16em;
+  }
+  
+  .testimonial-container p{
+    color: #8C8C90;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.7em;
+    letter-spacing: 0.02em;
+    font-family: Jost;
+  }
+  .testimonial-container img {
+    display: block;
+    margin: .1em auto 1.8em auto;
+    border-radius: 50%;
+    width: 7em;
+  }
+  
+  .testimonial-container h3 {
+    color: #202020;
+    font-size: 1.4em;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-bottom: -1.2em;
+  }
+  .testimonial-container h6 {
+    color: #008CBF;
+    font-size: 1em;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    text-align: center;
+  }
+  @media screen and (max-width: 650px) {
+    .wrapper {
+      font-size: 14px;
+    }
+    .wrapper {
+      margin: .1em;
+    }
+  } 
+  
+  @media screen and (max-width: 1034px) {
+   button#next {
+    right: 2em;
+    padding-top: .3em;
+    padding-right: .16em;
+  }
+  
+  button#prev {
+    left: 2em;
+    padding-top: .3em;
+    padding-left: .16em;
+  }
+  } 

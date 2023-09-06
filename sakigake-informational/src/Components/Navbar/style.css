@@ -71,6 +71,7 @@
     background: #008CBF;
     left: 0;
     width: 100%;
+    padding-left: 10px;
     height: 100%;
     transform: translateX(-100%);
   
@@ -146,7 +147,12 @@
     font-size: 20px; 
     margin: 8px; 
     padding: 8px; 
+   
+   
+
   }
+  
+  
 }
 
 @media (min-width: 912px) and (max-width: 1368px) {
@@ -162,7 +168,9 @@
 
     font-size: 18px; 
     margin: 8px; 
+    padding-left:35px;
     padding: 8px; 
+    margin-left:2%;
   }
 
 }
@@ -178,7 +186,7 @@
 
 @media (min-width: 600px) and (max-width: 1024px) {
  .logo{
-  margin-left: 1%;
+  margin-left: 3%;
  }
 }
 
