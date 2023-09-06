@@ -98,18 +98,17 @@
     #content{
         display: grid;
         grid-template-columns: repeat(1 1fr);
-        /* gap: 24px; */
+       
     }
 
     #blueContainer {
         width: 80%;
         margin-right: 10%;
-        /* padding: 6px 14px;
-        padding-top: 2%; */
+        
          
     }
     #blueContainer h2 {
-        font-size: 28px;
+        font-size: 20px;
        
     }
     #blueContainer p{
@@ -297,7 +296,7 @@
     }
 }
 
-@media screen and (min-width: 820px) and (max-width: 980px) {
+@media screen and (min-width: 820px) and (max-width: 1024px) {
     #mission-section {
         width: 100%;
         margin-right: -10%;

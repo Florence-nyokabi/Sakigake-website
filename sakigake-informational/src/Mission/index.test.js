@@ -1,5 +1,5 @@
 import React from 'react';
-import {getByText, render } from '@testing-library/react';
+import {getByText,  render } from '@testing-library/react';
 import Mission from '.';
 
 describe('Mission Component', () => {
@@ -16,7 +16,7 @@ describe('Mission Component', () => {
   it('renders MzaziConnect mission correctly', () => {
     const { getByText } = render(<Mission />);
     const missionContent = getByText(
-      "Our mission is to create an inclusive education system where schools,teachers and parents collaborate for students' success"
+      "Our mission is to create an inclusive education system where schools,teachers and parents collaborate for students' success."
     );
     expect(missionContent).toBeInTheDocument();
   });
