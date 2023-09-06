@@ -1,6 +1,8 @@
 import React from "react";
 import { RiSchoolLine } from 'react-icons/ri';
 import {BsPeople} from 'react-icons/bs';
+
+
 import './styles.css'
 
 
