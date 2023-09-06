@@ -9,7 +9,7 @@ const Navbar = () => {
       <span className="logo">
         <img src="./images/logo.svg" alt="" />
       </span>
-      <div className={`nav-items ${isOpen && "open"}`} data-testid="nav-items"> {/* Add data-testid attribute */}
+      <div className={`nav-items ${isOpen && "open"}`} data-testid="nav-items"> 
         <a href="/home">Home</a>
         <a href="/about">About</a>
         <a href="/service"> Our Services</a>

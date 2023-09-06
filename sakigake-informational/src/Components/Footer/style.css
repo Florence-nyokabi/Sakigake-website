@@ -66,7 +66,7 @@ span {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    /* gap: 20px; */
+
 }
 
 .footer {
@@ -88,6 +88,7 @@ span {
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
+    margin-top: .1em;
 }
 
 .c-li{
@@ -103,7 +104,6 @@ span {
     color: #E5E5E5;
     font-style: normal;
     font-weight: 400;
-    margin-top: -1em;
 }
 
 .footer-hr {
@@ -139,7 +139,6 @@ span {
     font-size: 1.4em;
     margin-left: -1em;
 }
-​
 .iconz .icon:hover{
     color: #008CBF;
 }
@@ -151,6 +150,7 @@ span {
 @media screen and (max-width: 768px) {
     .footer-container{
         padding-top: 5em ;
+        padding-right: 60px;
     }
     .footer-icons {
         flex-direction: column;
@@ -164,7 +164,7 @@ span {
    
 
     .logs{
-        margin-left: -1%;
+        margin-left: -8%;
     }
 
 
