@@ -3,6 +3,8 @@
 .section-container{
     width: 100%;
     font-family: 'Baloo Bhai 2', cursive;
+    margin-top: 7em;
+    margin-bottom: 10em;
 }
 .section-header{
     width: 100%;
@@ -19,23 +21,41 @@
 .contents{
     display: flex;
     justify-content: space-around;
-    
 }
 .contents-paragraph{
     margin-top: 10%;
-    margin-right: 10%;
+    margin-right: 5%;
+    text-align: justify;
 }
 .contents-paragraph1{
     margin-top: 10%;
+    margin-right: 10%;
 }
 .contents-paragraph1 p{
     font-size: 25px;
     font-family: jost;
-
+    text-align: justify;
+}
+.contents-paragraph1 .headings{
+    margin-right: 28%;
 }
 .main-heading{
-    font-size: 50px;
-}
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin-bottom: 5em;
+    font-size: 55px;
+   }
+   .main-heading::after{
+    content: '';
+    background: #008CBF;
+    display: block;
+    height: .13em;
+    width: 4.5em;
+    margin: 15px auto 8px;
+    border-radius: 2px;
+   }
 .headings{
     font-size: 40px;
     font-weight: 600;
@@ -48,13 +68,11 @@
 .section-header hr{
     width: 238px;
     height: 4px;
-    /* flex-shrink: 0; */
     border-radius: 4px;
     background: #008CBF;
     margin-right: 780px;
     margin-top: -40px;
 }
-
 @media screen and (max-width: 767px){
     .section-header .main-heading{
         font-size: 30px;
@@ -67,27 +85,18 @@
     .image-container img{
         width: 320px;
         height: 320px;
-      
+        margin-left: 10%;
     }
-    hr{
-        display: none;
-    }
-    .content-container{
-
-        text-align: center;
-    }
-    .content-container h2{
+    .content-container h2 {
         font-size:25px;
         text-align: start;
-        margin-left: 5%;
-    }
-    .contents-paragraph{
-        text-align: center;
+        margin-left: 10%;
+        padding: 0;
     }
     .content-container p{
-        font-size: 20px;
+        font-size: 18px;
         text-align: start;
-        margin-left: 5%;
+        margin-left: 10%;
     }
     br{
         display: none;
