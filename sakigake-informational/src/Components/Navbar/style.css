@@ -166,6 +166,15 @@
   }
 
 }
+@media (min-width: 820px) and (max-width: 1180px) {
+  .Navbar > .nav-items > a {
+
+    font-size: 18px; 
+    margin: 8px; 
+    padding: 8px; 
+  }
+
+}
 
 
 

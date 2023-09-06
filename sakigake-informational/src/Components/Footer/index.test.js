@@ -19,7 +19,8 @@ describe('Footer component', () => {
   });
 
   it('uses the correct font family', () => {
-    const { container } = render(<Footer />);
+    const { container } = render(<Footer />);  
+   
     const textElements = container.querySelectorAll('span'); 
     console.log(textElements);
     console.log(textElements.length)

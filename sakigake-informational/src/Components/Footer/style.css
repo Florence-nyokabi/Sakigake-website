@@ -197,3 +197,21 @@ span {
       flex-direction: column;
     }
   } 
+
+
+  @media (min-width: 820px) and (max-width: 1180px) {
+    
+  .logos{
+    margin-left: -20%;
+  }
+  
+  }
+  @media (min-width:768px) and (max-width: 1024px) {
+    
+    .logos{
+     margin-top: -25%;
+    }
+    
+
+    } 
+     
