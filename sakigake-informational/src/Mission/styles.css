@@ -27,7 +27,7 @@
     margin-top: -15%;
 }
 
-#bottom {
+#content {
     width: 100%;
     margin-bottom: 8%;
     display: flex;
@@ -44,19 +44,16 @@
     color: black;
     padding: 50px 25px;
     padding-bottom: 40px;
-
-
 }
 
 #blueContainer p {
     font-family:'Jost',san ;
     line-height: 1.8;
-
 }
 
 #icon {
     margin-right: 40%;
-    font-size: 35px;
+    font-size: 40px;
     color: #008CBF;
     border-radius: 50%;
     background: #E4F5FF;
@@ -83,78 +80,76 @@
     border: 1px solid white;
     transform: translate(-40%, -105%);
 }
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 280px){
     #mission-section {
-        /* margin-top: 50%; */
-        width: 100%;
-
+        width: 90%;
+        padding-right: 20px;
     }
 
+    #mission-header {
+        width: 95%;
+    }
     #mission-header h1 {
-        font-size: 25px;
+        font-size: 14px;
     }
 
     #mission-header p {
-        font-size: 14px;
-
+        font-size: 10px;
     }
-
-    #bottom {
+    #content{
         display: grid;
         grid-template-columns: repeat(1 1fr);
+        /* gap: 24px; */
     }
 
     #blueContainer {
-        width: 78%;
-        height: 250px;
-        margin: 10px 15px;
-        padding: 60px 30px;
-        margin-left: 14px;
+        width: 80%;
+        padding: 6px 14px;
+        padding-top: 5%;
+         
     }
-
     #blueContainer h2 {
-        font-size: 20px;
-
+        font-size: 28px;
+       
+    }
+    #blueContainer p{
+        font-size: 12px;
     }
 
     #icon {
         font-size: 20px;
-        padding: 8px 15px;
-        margin-left: 40%;
+        padding: 15px 30px;
     }
 
     #circle {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
     }
 
     #circle2 {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
     }
 }
-
-@media screen and (min-width: 768px) and (max-width: 1180px) {
+@media screen and (min-width: 420px) and (max-width: 540px){
     #mission-section {
         width: 100%;
-        margin-right: -10%;
-        
+        padding-left: 18px;
+        /* margin-right: -10%; */
     }
 
     #mission-header {
-        width: 100%;
+        width: 90%;
+        margin-left: 5%;
     }
-
     #mission-header h1 {
-        font-size: 2px;
+        font-size: 36px;
     }
 
     #mission-header p {
-        font-size: 24px;
+        font-size: 26px;
     }
-
-    #bottom {
+    #content{
         display: grid;
         grid-template-columns: repeat(1 1fr);
         gap: 24px;
@@ -162,19 +157,192 @@
 
     #blueContainer {
         width: 80%;
-        padding: 10px 14px;
-        margin-left: 8%;
+        padding: 6px 14px;
+        padding-top: 5%;
+        margin-left: -5%; 
     }
-
     #blueContainer h2 {
-        font-size: 25px;
-
+        font-size: 28px;
+        padding-left: 25px;
+    }
+    #blueContainer p{
+        font-size: 20px;
+        padding-left: 25px;
     }
 
     #icon {
-        font-size: 25px;
+        font-size: 35px;
+        padding: 15px 30px;
+        margin-left: 20px;
+    }
+
+    #circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    #circle2 {
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #mission-section {
+        /* margin-top: 50%; */
+        width: 100%;
+    }
+    #mission-header h1 {
+        width: 95%;
+        margin-top: -2%;
+        margin-left: 10px;
+        font-size: 26px;
+    }
+
+    #mission-header p {
+        width: 90%;
+        margin-left: 12px;
+        font-size: 14px;
+
+    }
+    #content {
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+    }
+
+    #blueContainer {
+        width: 80%;
+        height: 250px;
+        margin-left: 19px;
+        margin-bottom: 5%;
+        padding: 60px 20px;  
+        padding-bottom: 100px;  
+    }
+    #blueContainer h2 {
+        font-size: 20px;
+    }
+
+    #icon {
+        font-size: 30px;
         padding: 8px 15px;
-        margin-left: 45%;
+    }
+
+    #circle {
+        width: 80px;
+        height: 80px;
+        transform: translate(-12%, -45%);
+    }
+
+    #circle2 {
+        width: 80px;
+        height: 80px;
+        transform: translate(-42%, -110%);
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 819px){
+    #mission-section {
+        width: 100%;
+        margin-right: -10%;
+    }
+
+    #mission-header {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #mission-header h1 {
+        font-size: 36px;
+    }
+
+    #mission-header p {
+        font-size: 26px;
+    }
+
+    #content{
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+        gap: 24px;
+    }
+
+    #blueContainer {
+        width: 80%;
+        padding: 6px 14px;
+        padding-top: 5%;
+        margin-left: 8%;
+       
+    }
+
+    #blueContainer h2 {
+        font-size: 28px;
+        padding-left: 30px;
+    }
+    #blueContainer p{
+        font-size: 20px;
+        padding-left: 30px;
+    }
+
+    #icon {
+        font-size: 35px;
+        padding: 15px 30px;
+        margin-left: 20px;
+    }
+
+    #circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    #circle2 {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 820px) and (max-width: 980px) {
+    #mission-section {
+        width: 100%;
+        margin-right: -10%;
+    }
+
+    #mission-header {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #mission-header h1 {
+        font-size: 36px;
+    }
+
+    #mission-header p {
+        font-size: 26px;
+    }
+
+    #content{
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+        gap: 24px;
+    }
+
+    #blueContainer {
+        width: 80%;
+        padding: 6px 14px;
+        padding-top: 5%;
+        margin-left: 8%;
+       
+    }
+
+    #blueContainer h2 {
+        font-size: 28px;
+        padding-left: 30px;
+    }
+    #blueContainer p{
+        font-size: 20px;
+        padding-left: 30px;
+    }
+
+    #icon {
+        font-size: 35px;
+        padding: 15px 30px;
+        margin-left: 20px;
     }
 
     #circle {

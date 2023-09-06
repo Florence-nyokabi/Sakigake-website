@@ -4,7 +4,6 @@ import {BsPeople} from 'react-icons/bs';
 import './styles.css'
 
 
-
 let info =[
     {icons:<RiSchoolLine/>,title:"Empowering Schools for Holistic Learning",
      content:"Empower schools with streamlined assignment management and parent communication. Our app facilitates efficient sharing of assignments, schedules, and announcements, strengthening the school community."},
@@ -21,14 +20,12 @@ function Mission(){
             </div>
             <div id="circle2">
             </div>
-            
         <div id="mission-header">
             <h1>MzaziConnect is your partner in ensuring every child's success</h1>
-           <p>Our mission is to create an inclusive education system where schools,teachers and parents collaborate for students' success</p> 
+           <p>Our mission is to create an inclusive education system where schools,teachers and parents collaborate for students' success.</p> 
         </div>
         
-        <div id="bottom" >
-            
+        <div id="content" >
             {
                  info.map((item,index)=>(
                     <div key={index} id="blueContainer">
