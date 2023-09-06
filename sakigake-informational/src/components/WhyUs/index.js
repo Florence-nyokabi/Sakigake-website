@@ -11,7 +11,7 @@ const WhyMzaziConnect = () => {
             <div className="content-container">
                 <div className="contents">
                     <div className="image-container">
-                        <img src={process.env.PUBLIC_URL + 'images/Group 14.jpg'} alt="Lady" />
+                        <img src={process.env.PUBLIC_URL + '/lady.jpg'} alt="Lady" />
                     </div>
                     <div className="contents-paragraph">
                         <h2 className="headings">Assignment Access</h2>
@@ -24,12 +24,12 @@ const WhyMzaziConnect = () => {
                         <p>Locate shops in your vicinity that provide the<br/>materials required for the CBC program, all <br/>through our app.</p>
                     </div>
                     <div className="image-container">
-                        <img src={process.env.PUBLIC_URL + 'images/Group 15.jpg'} alt="Man" />
+                        <img src={process.env.PUBLIC_URL + '/man.jpg'} alt="Man" />
                     </div>
                 </div>
                 <div className="contents">
                     <div className="image-container">
-                        <img src={process.env.PUBLIC_URL + 'images/Group 16.jpg'} alt="Lady" />
+                        <img src={process.env.PUBLIC_URL + '/nurse.jpg'} alt="Lady" />
                     </div>
                     <div className="contents-paragraph">
                         <h2 className="headings">Real-time Updates</h2>

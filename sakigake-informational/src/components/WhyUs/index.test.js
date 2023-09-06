@@ -2,16 +2,13 @@ import React from 'react';
 import { getByText, render } from '@testing-library/react';
 import WhyMzaziConnect from '.';
 
-
-describe("WhyMzaziConnect Component", () => {
-    it("renders the main heading correctly", () => {
-      const { getByText } = render(<WhyMzaziConnect />);
-      const mainHeading = getByText("WHY MZAZICONNECT?");
-      expect(mainHeading).toBeInTheDocument();
-    });
-
-
-    describe('WhyMzaziConnect Component', () => {
+describe('WhyMzaziConnect Component', () => {
+      it("renders the main heading correctly", () => {
+        const { getByText } = render(<WhyMzaziConnect />);
+        const mainHeading = getByText("WHY MZAZICONNECT?");
+        expect(mainHeading).toBeInTheDocument();
+      });
+  
         it('should render without errors', () => {
           const { container } = render(<WhyMzaziConnect />);
           expect(container).toBeInTheDocument();
@@ -44,5 +41,6 @@ describe("WhyMzaziConnect Component", () => {
             
         })
 
+
+
     });
-});
