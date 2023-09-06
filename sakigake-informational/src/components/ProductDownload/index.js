@@ -2,7 +2,7 @@ import React from "react";
 import './style.css'
 
 
-const Download=() =>{
+const ProductDownload=() =>{
 return(
 
 <div className="main">
@@ -19,7 +19,7 @@ alt="download"
 />
 </div>
 
-<div className="pic">
+<div className="phoneDisplay">
 <img 
 src="https://res.cloudinary.com/dtu8pkzkp/image/upload/v1693309363/Screenshot_from_2023-08-26_12-11-36-removebg-preview_1_tn0b5o.png"
 alt="appvisual"
@@ -30,4 +30,4 @@ alt="appvisual"
 )
 }
 
-export default Download;
+export default ProductDownload;

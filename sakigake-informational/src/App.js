@@ -1,10 +1,11 @@
 import './App.css';
-import Download from './components/Download';
+import ProductDownload from './components/ProductDownload';
+ 
 
 function App() {
   return (
     <div>
-      <Download/>
+      <ProductDownload/>
 
     </div>
   );
