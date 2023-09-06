@@ -18,15 +18,15 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '18'
-      # Install Packages
-      # - name: Install Packages
-      #   working-directory: informational-website
-      #   run: npm install
-      # # Build the React app
-      # - name: Build
-      #   working-directory: informational-website
-      #   run: npm run build
-      # # Run Tests
-      # - name: Run Tests
-      #   working-directory: informational-website
-      #   run: npm test
+     # Install Packages
+      - name: Install Packages
+        working-directory: sakigake-informational
+        run: npm install
+      # Build the React app
+      - name: Build
+        working-directory: sakigake-informational
+        run: npm run build
+      # Run Tests
+      - name: Run Tests
+        working-directory: sakigake-informational
+        run: npm test
