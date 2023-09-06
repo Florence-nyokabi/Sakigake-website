@@ -1,6 +1,10 @@
-import { render, screen } from '@testing-library/react';
+/* eslint-disable testing-library/prefer-screen-queries */
+import React from 'react';
+import { render } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders the App component', () => {
   render(<App />);
+
+
 });
