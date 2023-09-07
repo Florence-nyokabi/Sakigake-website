@@ -4,7 +4,7 @@ import './style.css';
 
 const WhyMzaziConnect = () => {
     return(
-        <div className="section-container">
+        <div className="section-container" id="our-services">
             <div className="section-header">
                 <h1 className="main-heading">WHY MZAZICONNECT?</h1>
             </div>

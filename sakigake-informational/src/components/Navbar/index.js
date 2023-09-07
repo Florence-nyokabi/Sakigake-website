@@ -11,9 +11,9 @@ const Navbar = () => {
       </span>
       <div className={`nav-items ${isOpen && "open"}`} data-testid="nav-items"> 
         <a href="/home">Home</a>
-        <a href="/about">About</a>
-        <a href="/service"> Our Services</a>
-        <a href="/contact">Contact Us</a>
+        <a href="#mission-section">About</a>
+        <a href="#our-services"> Our Services</a>
+        <a href="#footer-container">Contact Us</a>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}

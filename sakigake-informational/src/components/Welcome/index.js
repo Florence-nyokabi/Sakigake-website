@@ -14,7 +14,7 @@ const Welcome = () =>{
                     <br/>
                     child's education journey.
                 </h1>
-                <p>
+                <p className="our-app">
                 Our app simplifies assignment tracking and provides information  on nearby
                 <br/>
                 shops where you can find the necessary

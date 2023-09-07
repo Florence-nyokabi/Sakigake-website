@@ -27,8 +27,8 @@ describe("Navbar component", () => {
     const contactLink = getByText("Contact Us");
 
     expect(homeLink.getAttribute("href")).toBe("/home");
-    expect(aboutLink.getAttribute("href")).toBe("/about");
-    expect(serviceLink.getAttribute("href")).toBe("/service");
-    expect(contactLink.getAttribute("href")).toBe("/contact");
+    expect(aboutLink.getAttribute("href")).toBe("#mission-section");
+    expect(serviceLink.getAttribute("href")).toBe("#our-services");
+    expect(contactLink.getAttribute("href")).toBe("#footer-container");
   });
 });
