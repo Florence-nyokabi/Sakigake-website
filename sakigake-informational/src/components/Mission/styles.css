@@ -49,6 +49,8 @@
 #blueContainer p {
     font-family:'Jost',san ;
     line-height: 1.8;
+    color: #484848;
+    padding-bottom: 3em;
 }
 
 #icon {
