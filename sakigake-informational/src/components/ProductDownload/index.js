@@ -13,10 +13,7 @@ Access your <span className="blue"> child's assignments </span>
 and discover <br/> the <span className="blue"> nearest shops </span>  offering 
 the materials needed for <br/> their studies from our App.
 </p>
-<img className="playstore" 
-src="https://res.cloudinary.com/dtu8pkzkp/image/upload/v1693309240/image-removebg-preview_uq2sd5.png"
-alt="download"
-/>
+<img className="playstore" src="./images/playstore.png" alt="playstore"/>
 </div>
 
 <div className="phoneDisplay">

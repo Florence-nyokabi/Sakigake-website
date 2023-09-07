@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Hind+Madurai&family=Nunito:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Hind+Madurai&family=Jost&family=Nunito:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap');
-
 .home{
     background-image:
     linear-gradient(rgba(255, 255, 255, 0.700), rgba(255, 255, 255, 0.700)),
@@ -21,7 +20,6 @@
 }
 .home-div-one{
     padding-left: 5%;
-    margin-top: 6%;
 }
 .home-div-one .welcome{
     font-size: 50px;
@@ -71,27 +69,24 @@
     background-size: cover;
     margin-top: -3.5em;
 }
-
 .span-dot{
     background-color: #FFDB5B;
-    padding: 1.2em 1.8em;
+    padding: 1px .85em;
     border-radius: 2em;
     margin-left: 5em;
 }
-
 .span-dot-two{
     margin-left: 2em;
     float: right;
 }
-
 .span-dot-two::after{
     content: '';
     background: #72D4F7;
     display: block;
-    height: 2.5em;
-    width: .1em;
-    padding: 1px 20px;
+    height: 1em;
+    width: 1em;
     border-radius: 100%;
+    margin-left: 6em;
 }
 @media only screen and (max-width:1629px){
     .child-background{
@@ -107,8 +102,10 @@
     .child-background{
         margin-right: 2em;
     }
+    .span-dot{
+        display: none;
+    }
 }
-
 @media only screen and (max-width:1597px){
     .child-background{
         height: 495px !important;
@@ -121,8 +118,6 @@
         font-size: 1.15em !important;
     }
 }
-
-
 @media only screen and (max-width:1429px){
     .child-background{
         height: 450px !important;
@@ -132,7 +127,6 @@
         font-size: 2.1em !important;
     }
 }
-
 @media only screen and (max-width:1262px){
     .child-background{
         height: 390px !important;
@@ -165,7 +159,6 @@
     .home-div-one h1{
         font-size: 1.8em !important;
     }
-
     .home-div-one{
         padding-left: 3%;
     }
@@ -209,9 +202,6 @@
     .home-divs{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-    }
-    .home-div-one .welcome, .journey, .our-app{
-        padding-left: 0.5em;
     }
     .child-background{
         float: none !important;
