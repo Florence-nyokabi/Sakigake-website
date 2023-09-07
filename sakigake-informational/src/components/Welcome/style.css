@@ -138,6 +138,7 @@
     .home-div-one p{
         font-size: 1.038em !important;
     }
+
 }
 @media only screen and (max-width:1250px){
     .child-background{
@@ -161,6 +162,14 @@
     }
     .home-div-one{
         padding-left: 3%;
+    }
+    .span-dot-two{
+        margin-left: 0;
+        float: none;
+    }
+
+    .span-dot-two::after{
+        margin-left: 2em;
     }
 }
 @media only screen and (max-width:1110px){
